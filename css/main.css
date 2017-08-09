@@ -1,0 +1,55 @@
+.page-header{
+	background-image: url("../images/presse10.jpg");
+	color: white;
+	font-family: cursive;
+	padding: 5px;
+}
+
+.navbar{
+	margin-top: 10px
+}
+#myCarousel{
+	margin-top: 10px;
+}
+
+.main1{
+	margin-top: 15px
+}
+
+ .mostwatchedimage img{
+ 	height: 12rem;
+ 	width: 15rem;
+ }
+ .limelightsimage img{
+ 	height: 12rem;
+ 	width: 15rem;
+ }
+ .mainfooter{
+	
+	background-color: #333A40;
+	color: white;
+}
+
+.basefooter{
+	background-color: #494949;
+	color: white;
+}
+
+.main{
+	background-color: #333A40;
+	color: white;
+}
+
+.base{
+	background-color: #494949;
+	color: white;
+}
+
+.newsvideo{
+	margin-top: 15px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+	height: 30%;
+	width:50%;
+}
