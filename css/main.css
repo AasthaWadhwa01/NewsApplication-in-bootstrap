@@ -1,13 +1,19 @@
+html{
+    font-size: 8px;
+}
+
+/* heading style */
 .page-header{
 	background-image: url("../images/presse10.jpg");
 	color: white;
 	font-family: cursive;
 	padding: 5px;
 }
-
+/* navbar style */
 .navbar{
 	margin-top: 10px
 }
+/* carousel style */
 #myCarousel{
 	margin-top: 10px;
 }
@@ -15,17 +21,18 @@
 .main1{
 	margin-top: 15px
 }
-
+	/* most watched section style */
  .mostwatchedimage img{
  	height: 12rem;
  	width: 15rem;
  }
+ /* limelights style */
  .limelightsimage img{
  	height: 12rem;
  	width: 15rem;
  }
+ /* footer style */
  .mainfooter{
-	
 	background-color: #333A40;
 	color: white;
 }
@@ -44,12 +51,52 @@
 	background-color: #494949;
 	color: white;
 }
-
+/* video style */
 .newsvideo{
 	margin-top: 15px;
 	margin-left: auto;
-    margin-right: auto;
-    display: block;
+  margin-right: auto;
+  display: block;
 	height: 30%;
 	width:50%;
+}
+
+@media (min-width: 33.9em) { 
+
+         html {
+        font-size: 10px;
+      }
+
+
+ }
+/**
+ * Small devices (phones, tablets less than 48em)
+  */
+@media (min-width: 47.9em) {
+     html {
+    font-size: 12px;
+  }
+}
+
+/**
+ * Medium devices (tablets, small laptops less than 62em)
+ 
+ */
+@media (min-width: 61.9em) {
+    html {
+    font-size: 14px;
+  }
+
+ }
+
+/**
+ * Large devices (desktops, screens less than 75em)
+ * @param  {[type]} max-width: 74.9em        [description]
+ * @return {[type]}            [description]
+ */
+@media (min-width: 74.9em) {
+      
+html {
+    font-size: 16px;
+}
 }
